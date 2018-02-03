@@ -5,10 +5,10 @@ Due date: Nov. 10, 2016 <br />
 
 **** Algorithm steps for Prim's Algorithm:<br />
 
-Step 0:  N ê get from input file<br />
+Step 0:  N <- get from input file<br />
      0.1: initialize all objects in PrimMST class accordingly<br />
 
-Step 1: newEdgeNode ê read each <Ni, Nj, cost> from input file to create an edgeNode<br />
+Step 1: newEdgeNode <- read each <Ni, Nj, cost> from input file to create an edgeNode<br />
      1.1: insert newEdgeNode into edgeList (in ascending order by the cost)<br />
      1.2: graphNodeIDarray[Ni]++<br />
             graphNodeIDarray[Nj]++<br />
@@ -18,17 +18,17 @@ Step 2: repeat step 1 until the input file is empty<br />
 Step 3: print graphNodeIDarry to output-2 file<br />
      3.1: print edgeList (only the first 10 edges) to output-2 file <br />
         
-Step 4: k ê find the first none zero graphNodeIDarray[k],<br />
-     4.1: newGraphNode ê create a new graphNode for k<br />
+Step 4: k <- find the first none zero graphNodeIDarray[k],<br />
+     4.1: newGraphNode <- create a new graphNode for k<br />
      4.2: insert newGraphNode into SetA <br />
 
-Step 5: k ê get the next none zero graphNodeIDarray[k]<br />
-     5.1: newGraphNode ê create a new graphNode for k<br />
+Step 5: k <- get the next none zero graphNodeIDarray[k]<br />
+     5.1: newGraphNode <- create a new graphNode for k<br />
      5.2: insert newGraphNode in the front of setB<br />
 
 Step 6: repeat step 5 until reach the end of graphNodeIDarray<br />
 
-Step 7: newEdge ê remove the front edge, say <Ni, Nj,cost>, from the edgeList<br />
+Step 7: newEdge <- remove the front edge, say <Ni, Nj,cost>, from the edgeList<br />
             if Ni and Nj are in the same set, discards newEdge<br />
      7.1: repeat step 7 until Ni and Nj are one in setA and the other in setB<br />
 

@@ -1,0 +1,124 @@
+Graph Node 1D Array:
+3 3 3 4 3 5 3 3 3 3 2 3 
+
+Edge List:
+6 7 12
+4 3 13
+1 6 13
+6 4 13
+3 5 14
+9 11 15
+1 2 16
+6 12 17
+2 4 18
+8 6 22
+
+Set A: 6 1 
+Set B: 12 11 10 9 8 7 5 4 3 2 
+Minimum Spanning Tree: 
+1 6 13
+
+Set A: 7 6 1 
+Set B: 12 11 10 9 8 5 4 3 2 
+Minimum Spanning Tree: 
+6 7 12
+1 6 13
+
+Set A: 4 7 6 1 
+Set B: 12 11 10 9 8 5 3 2 
+Minimum Spanning Tree: 
+6 7 12
+6 4 13
+1 6 13
+
+Set A: 3 4 7 6 1 
+Set B: 12 11 10 9 8 5 2 
+Minimum Spanning Tree: 
+6 7 12
+4 3 13
+6 4 13
+1 6 13
+
+Set A: 2 3 4 7 6 1 
+Set B: 12 11 10 9 8 5 
+Minimum Spanning Tree: 
+3 2 11
+6 7 12
+4 3 13
+6 4 13
+1 6 13
+
+Set A: 5 2 3 4 7 6 1 
+Set B: 12 11 10 9 8 
+Minimum Spanning Tree: 
+3 2 11
+6 7 12
+4 3 13
+6 4 13
+1 6 13
+3 5 14
+
+Set A: 12 5 2 3 4 7 6 1 
+Set B: 11 10 9 8 
+Minimum Spanning Tree: 
+3 2 11
+6 7 12
+4 3 13
+6 4 13
+1 6 13
+3 5 14
+6 12 17
+
+Set A: 8 12 5 2 3 4 7 6 1 
+Set B: 11 10 9 
+Minimum Spanning Tree: 
+3 2 11
+6 7 12
+4 3 13
+6 4 13
+1 6 13
+3 5 14
+6 12 17
+8 6 22
+
+Set A: 11 8 12 5 2 3 4 7 6 1 
+Set B: 10 9 
+Minimum Spanning Tree: 
+3 2 11
+6 7 12
+4 3 13
+6 4 13
+1 6 13
+3 5 14
+6 12 17
+8 6 22
+1 11 26
+
+Set A: 9 11 8 12 5 2 3 4 7 6 1 
+Set B: 10 
+Minimum Spanning Tree: 
+3 2 11
+6 7 12
+4 3 13
+6 4 13
+1 6 13
+3 5 14
+9 11 15
+6 12 17
+8 6 22
+1 11 26
+
+Set A: 10 9 11 8 12 5 2 3 4 7 6 1 
+Set B: 
+Minimum Spanning Tree: 
+3 2 11
+6 7 12
+4 3 13
+6 4 13
+1 6 13
+3 5 14
+9 11 15
+6 12 17
+8 6 22
+9 10 24
+1 11 26

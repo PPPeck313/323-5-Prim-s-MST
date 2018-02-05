@@ -1,9 +1,9 @@
 # 323 5-Prim-s-MST<br />
-CSC 323-32: Project 5 <Prim's MST > (C++)<br />
-Preston Peck<br />
-Due date: Nov. 10, 2016 <br />
+### CSC 323-32: Project 5 <Prim's MST > (C++)<br />
+### Preston Peck<br />
+### Due date: Nov. 10, 2016 <br />
 
-**** Algorithm steps for Prim's Algorithm:<br />
+#### **** Algorithm steps for Prim's Algorithm:<br />
 
 Step 0:  N <- get from input file<br />
      0.1: initialize all objects in PrimMST class accordingly<br />
@@ -45,7 +45,7 @@ Step 10: repeat step 7 - step 9 until setB is empty<br />
 Step 11: output MSTofG and the totalCost to output-1 file with proper heading, one edge with <br />
               cost per text line.<br />
 
-Input<br />
+### Input<br />
 12<br />
 6 4 13<br />
 12 7 13<br />
@@ -67,7 +67,7 @@ Input<br />
 3 5 14<br />
 6 7 12<br />
 
-Output<br />
+### Output<br />
 Minimum Spanning Tree<br />
 12<br />
 3 2 11<br />
